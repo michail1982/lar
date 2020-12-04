@@ -1,0 +1,29 @@
+{
+    "name": "michail1982/admin-core",
+    "type": "laravel-library",
+    "description":"Admin Core",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Максаров Михаил",
+            "email": "mikhail.maksarov@brander.ua"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "branch-version": "1.0-dev",
+        "laravel": {
+            "providers": [
+                "Michail1982\\AdminCore\\ServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Michail1982\\AdminCore\\": "src/"
+        }
+    },
+    "require": {
+        "spatie/laravel-enum": "^1.6"
+    }
+}
